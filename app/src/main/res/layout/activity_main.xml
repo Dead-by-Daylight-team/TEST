@@ -33,15 +33,18 @@
         android:layout_height="wrap_content"
         android:text="Damage"
         android:gravity="center"/>
+
     <ImageView
+        android:id="@+id/KARTINKA"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"/>
+        android:layout_height="195dp"
+        android:gravity="center" />
     <Button
         android:onClick="next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:onClick="previous"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
